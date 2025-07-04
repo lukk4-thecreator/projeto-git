@@ -1,8 +1,8 @@
->>> def fib(n):
->>>     a, b = 0, 1
->>>     while a < n:
->>>         print(a, end=' ')
->>>         a, b = b, a+b
->>>     print()
->>> fib(1000)
-0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987
+
+def sum(a, b):
+    return (a + b)
+
+a = int(input('Enter 1st number: '))
+b = int(input('Enter 2nd number: '))
+
+print(f'Sum of {a} and {b} is {sum(a, b)}')
